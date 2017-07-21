@@ -5,6 +5,50 @@
     <title></title>
   </head>
   <body>
+    <header id="site-header">
 
+      <nav id="site-nav">
+        <a href="#" id='logo'><img src="images/bent-creek-logo.png" alt="Logo"></a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="newsletter.html">Newsletter</a>
+      </nav>
+    </header>
+    <div class="background">
+      <div class="text-box">
+        <h2>Sign Up for Our Weekly Newsletter</h2>
+        <h3>Stay up to date with events, activities, news, and specials.</h3>
+        <form action="#">
+
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="nameInput">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="emailInput">
+            </div>
+            <div class="submit_container">
+                <input type="submit" id="signupButton" value="Submit">
+            </div>
+        </form>
+      </div>
+
+    </div>
+
+    <script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+</script>
   </body>
 </html>

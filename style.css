@@ -13,3 +13,56 @@ Button Text: #F2F1E8
 Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343 */
+
+
+#site-header {
+  background-color: #FFFFFF;
+  display: flex;
+}
+
+#site-nav {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  text: #2B2F26;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #FFFFFF
+  position: relative;
+}
+
+#home, #about, #newsletter {
+  text-decoration: none;
+  color: #2B2F26;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+  font-size: 18px;
+  padding-top: 18px;
+}
+
+#home {
+  padding-right: 20px;
+}
+
+#about {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+#newsletter {
+  padding-left: 20px;
+}
+
+#logo {
+  width: 40px;
+  height: auto;
+  position: fixed;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+#home, #about, #newsletter:active {
+  color: #968772
+}

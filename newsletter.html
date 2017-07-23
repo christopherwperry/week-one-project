@@ -3,40 +3,44 @@
   <head>
     <meta charset="utf-8">
     <link href="newsletter-style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
     <title>Bent Creek Ceramics - Newsletter</title>
   </head>
   <body>
     <header id="site-header">
+      <a href="#"><img src="images/bent-creek-logo.png" alt="Logo" id=logo></a>
       <nav id="site-nav">
-        <a href="#"><img src="images/bent-creek-logo.png" alt="Logo" id=logo></a>
         <a href="index.html" id="home">Home</a>
         <a href="about.html" id="about">About</a>
         <a href="newsletter.html" id="newsletter">Newsletter</a>
       </nav>
     </header>
 
-    <div class="page-contents">
-
       <div class="main-area">
-      </div>
-      <div class="text-box">
-          <h2>Sign Up for Our Weekly Newsletter</h2>
-          <h3>Stay up to date with events, activities, news, and specials.</h3>
+        <img id=pot-picture src="images/background-2.jpg" alt="">
 
-          <form action="#">
-            <div class="name">
-              <label for="name">Name:</label>
+        <form class="text-square"action="#">
+          <p id="first-line">Sign Up for Our Weekly Newsletter</p>
+          <p id="second-line">Stay up to date with events, activities, news, and specials.</p>
+
+          <div class="name">
+            <div class="name-line">
+              <label for="name" id="nameLabel">Name</label>
               <input type="text" name="name"  id="nameInput">
-              <label for="email">Email:</label>
+            </div>
+            <div class="email-line">
+              <label for="email" id="emailLabel">Email</label>
               <input type="email" name="email" id="emailInput">
             </div>
-            <div class="submit_container">
-              <input type="submit" id="signupButton" value="Submit">
-            </div>
-          </form>
-        </div>
+          </div>
 
-    </div>
+          <div class="submit_container">
+            <button type="submit" id="signupButton">Submit</button>
+          </div>
+
+        </form>
+
+      </div>
 
     <script type="text/javascript">
   var nameInput = document.getElementById('nameInput');

@@ -19,7 +19,7 @@ Input Border Bottom (Focus): #967343 */
   background-color: #FFFFFF;
   display: flex;
   width: 100%;
-  padding-bottom: 18px;
+  padding-bottom: 12px;
 }
 
 #site-nav {
@@ -62,7 +62,7 @@ Input Border Bottom (Focus): #967343 */
 #logo {
   width: 40px;
   height: auto;
-  position: fixed;
+  position: relative;
   padding-left: 10px;
   padding-top: 5px;
 }

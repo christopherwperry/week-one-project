@@ -48,6 +48,7 @@ Input Border Bottom (Focus): #967343 */
 #about {
   padding-left: 35px;
   padding-right: 35px;
+  color: #968772;
 }
 
 #newsletter {
@@ -62,6 +63,10 @@ Input Border Bottom (Focus): #967343 */
   padding-top: 10px;
 }
 
-#home, #about, #newsletter:active {
-  color: #968772
+#home:hover, #about:hover, #newsletter:hover {
+  color: #CD5D67;
+}
+
+#home:active, #about:active, #newsletter:active {
+  color: #968772;
 }

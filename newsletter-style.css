@@ -52,6 +52,7 @@ Input Border Bottom (Focus): #967343 */
 
 #newsletter {
   padding-left: 20px;
+  color: #968772;
 }
 
 #logo {
@@ -62,8 +63,12 @@ Input Border Bottom (Focus): #967343 */
   padding-top: 10px;
 }
 
-#home, #about, #newsletter:active {
-  color: #968772
+#home:hover, #about:hover, #newsletter:hover {
+  color: #CD5D67;
+}
+
+#home:active, #about:active, #newsletter:active {
+  color: #968772;
 }
 
 #pot-picture {

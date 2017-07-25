@@ -138,12 +138,10 @@ div.blockquote-founder {
 .room-to-grow {
   text-align: center;
   background-image: url(images/background-3.jpg);
-  object-fit: cover;
   height: 300px;
-  width: 100%;
+  width: 100vw;
   margin: none;
   position: relative;
-
 }
 
 .room-to-grow h2 {

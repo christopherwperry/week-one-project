@@ -14,9 +14,14 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343 */
 
+html {
+  overflow: hidden;
+}
+
 #site-header {
   background-color: #FFFFFF;
   display: flex;
+  margin-left: none;
 }
 
 #site-nav {
@@ -92,6 +97,9 @@ form {
   padding-top: 15px;
 }
 
+.main-area {
+  margin: none:
+}
 #first-line {
   text-align: center;
   font-size: 32px;

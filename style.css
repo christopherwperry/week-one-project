@@ -14,7 +14,14 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343 */
 
+html {
+  overflow: hidden;
+}
 
+body {
+  background-color: #F2F1E8;
+  margin: 0px;
+}
 #site-header {
   background-color: #FFFFFF;
   display: flex;
@@ -30,8 +37,9 @@ Input Border Bottom (Focus): #967343 */
   text: #2B2F26;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
   position: relative;
+  padding-top: 5px;
 }
 
 #home, #about, #newsletter {
@@ -64,7 +72,7 @@ Input Border Bottom (Focus): #967343 */
   height: auto;
   position: relative;
   padding-left: 10px;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 #home:hover, #about:hover, #newsletter:hover {
@@ -75,17 +83,9 @@ Input Border Bottom (Focus): #967343 */
   color: #968772;
 }
 
-
-h1, h3 {
-  text-align: center;
-  background-color: #F2F1E8;
-  font-family: Merriweather, sans-serif;
-  margin: auto;
-}
-
 #top-line {
   padding-top: 35px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   font-size: 48px;
   font-weight: 400;
   text-align: center;
@@ -99,65 +99,68 @@ h1, h3 {
   background-color: #F2F1E8;
   font-family: Merriweather, sans-serif;
   font-size: 30px;
-  margin-top: -10px;
+  margin-top: -25px;
   margin-bottom: 40px;
-}
-
-.page-contents {
-  background-color: #F2F1E8;
-  width: 1276px;
-  margin: 0;
-  padding-left: 25px;
-  padding-right: 25px;
 }
 
 .row-one, .row-two {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: flex-start;
+  width: 100vw;
 }
 
-#home-one, #home-two, #home-three {
-  width: 100%;
-  height: 360px;
-  position: relative;
-  z-index: 0;
-  object-fit: cover;
+.row-one {
+  height: 34vh;
 }
 
-#home-one {
-  width: 735px;
+.row-two {
+  height: 23vh;
 }
 
-#home-two, #home-three {
-  width: 230px;
+#picture-one {
+  background-image: url(images/product-1.jpg);
+  flex-grow: 3;
 }
 
-
-#home-four, #home-five, #home-six, #home-seven {
-  position: relative;
-  z-index: 0;
-  object-fit: cover;
+#picture-two {
+  background-image: url(images/product-2.jpg);
+  flex-grow: 1;
 }
 
-#home-four, #home-five, #home-seven {
-  width: 240px;
-  height: 230px;
+#picture-three {
+  background-image: url(images/product-3.jpg);
+  flex-grow: 1;
 }
 
-#home-six {
-  width: 480px;
-  height: 230px;
+#picture-four {
+  background-image: url(images/product-4.jpg);
+  flex-grow: 1;
 }
 
-p {
+#picture-five {
+  background-image: url(images/product-5.jpg);
+  flex-grow: 1;
+}
+
+#picture-six {
+  background-image: url(images/product-6.jpg);
+  flex-grow: 2;
+}
+
+#picture-seven {
+  background-image: url(images/product-7.jpg);
+  flex-grow: 1;
+}
+
+ h4 {
   background-color: #2C2F27;
   color: #F2F1E8;
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: justify;
+  font-weight: lighter;
 }
 
 footer {
@@ -166,5 +169,7 @@ footer {
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 20px;
-  width: 100%;
+  width: 100vw;
+  margin: 0;
+  margin-top: 20px;
 }

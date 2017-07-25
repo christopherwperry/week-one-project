@@ -146,13 +146,18 @@ div.blockquote-founder {
 
 .room-to-grow h2 {
   color: #F2F1E8;
-  font-size: 44px;
+  font-size: 56px;
   font-weight: lighter;
+  padding-top: 125px;
 }
 
 .above-room, .below-room {
   margin-right: 15%;
   margin-left: 15%;
+}
+
+.below-room h3{
+  padding-top: 15px;
 }
 
 .facilities-content {
@@ -163,16 +168,31 @@ div.blockquote-founder {
   padding-right: 15px;
 }
 
+.facilities-text p {
+  margin: 0;
+}
+
 #background-one {
   width: 180px;
 }
 
 #below-image {
   font-size: 12px;
+  font-weight: lighter;
+}
+
+table {
+  border: solid 1px #2C2F27;
+  border-collapse: collapse;
 }
 
 thead {
   text-align: center;
+}
+
+td {
+    border: solid 1px #2C2F27;
+    padding: 10px;
 }
 
 tr {
@@ -180,7 +200,8 @@ tr {
   font-weight: 400;
   line-height: 1.8;
   color: #131511;
-  border: solid .5px #131511;
+  border: solid 1px #2C2F27;
+  border-collapse: collapse;
 }
 
 #desk-only, #unlimited{

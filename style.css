@@ -15,7 +15,6 @@ Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343 */
 
 html {
-  overflow: hidden;
 }
 
 body {
@@ -106,12 +105,15 @@ body {
 .row-one, .row-two {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  width: 100vw;
+  justify-content: space-between;
+  width: 96vw;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .row-one {
   height: 34vh;
+  margin-bottom: 15px;
 }
 
 .row-two {
@@ -120,49 +122,62 @@ body {
 
 #picture-one {
   background-image: url(images/product-1.jpg);
-  flex-grow: 3;
+  width: 56vw;
 }
 
 #picture-two {
   background-image: url(images/product-2.jpg);
-  flex-grow: 1;
+  width: 18.5vw;
 }
 
 #picture-three {
   background-image: url(images/product-3.jpg);
-  flex-grow: 1;
+  width: 18.5vw;
 }
 
 #picture-four {
   background-image: url(images/product-4.jpg);
-  flex-grow: 1;
+  width: 18.5vw;
 }
 
 #picture-five {
   background-image: url(images/product-5.jpg);
-  flex-grow: 1;
+  width: 18.5vw;
 }
 
 #picture-six {
   background-image: url(images/product-6.jpg);
-  flex-grow: 2;
+  width: 37vw;
 }
 
 #picture-seven {
   background-image: url(images/product-7.jpg);
-  flex-grow: 1;
+  width: 18.5vw;
 }
 
- h4 {
+ .row-one h4 {
   background-color: #2C2F27;
   color: #F2F1E8;
   font-size: 18px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
   text-align: justify;
   font-weight: lighter;
+  margin-top: 27vh;
 }
 
+.row-two h4 {
+ background-color: #2C2F27;
+ color: #F2F1E8;
+ font-size: 18px;
+ padding-top: 8px;
+ padding-bottom: 8px;
+ padding-left: 8px;
+ text-align: justify;
+ font-weight: lighter;
+ margin-top: 17vh;
+}
 footer {
   background-color: #2C2F27;
   color: #F2F1E8;

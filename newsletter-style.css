@@ -48,7 +48,7 @@ body {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   text-decoration: underline;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 18px;
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 #logo {
-  width: 40px;
+  width: 35px;
   height: auto;
   position: fixed;
   padding-left: 15px;
@@ -163,6 +163,7 @@ input {
 
 input:focus {
   border-bottom: solid 1.5px #967343;
+  outline: none;
 }
 
 #signupButton {

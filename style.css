@@ -22,11 +22,12 @@ body {
   background-color: #F2F1E8;
   margin: 0px;
 }
+
 #site-header {
   background-color: #FFFFFF;
   display: flex;
-  width: 100%;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
+  margin-top: -10px;
 }
 
 #site-nav {
@@ -38,8 +39,10 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   background-color: #FFFFFF;
-  position: relative;
-  padding-top: 5px;
+  position: fixed;
+  z-index: 25;
+  padding-bottom: 20px;
+  padding-top: 8.5px;
 }
 
 #home, #about, #newsletter {
@@ -49,13 +52,12 @@ body {
   font-family: 'Roboto', sans-serif;
   text-decoration: underline;
   font-size: 18px;
-  padding-top: 15px;
+  padding-top: 18px;
 }
-
 
 #home {
   padding-right: 20px;
-  color: #968772;
+  color: #968772
 }
 
 #about {
@@ -70,9 +72,11 @@ body {
 #logo {
   width: 40px;
   height: auto;
-  position: relative;
-  padding-left: 10px;
+  position: fixed;
+  padding-left: 15px;
   padding-top: 10px;
+  z-index: 50;
+  margin-top: 8.5px;
 }
 
 #home:hover, #about:hover, #newsletter:hover {
